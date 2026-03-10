@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 6px 12px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  select {
+    padding: 6px;
+    margin: 5px;
+  }
+  .app-layout{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+  }
+  
+  .app-content{
+    flex:1;
+  }

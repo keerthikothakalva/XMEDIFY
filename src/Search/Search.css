@@ -1,0 +1,36 @@
+
+.search-container h1 {
+  margin: 20px 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+.search-container{
+  max-width:1200px;
+  margin:auto;
+  padding:20px;
+}
+
+.search-layout{
+  display:grid;
+  grid-template-columns: 3fr 1fr;
+  gap:30px;
+  align-items:start;
+}
+
+
+.hospital-list{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+.cta-section{
+  position:sticky;
+  top:120px;
+  height:fit-content;
+}
+
+.cta-section img{
+  width:100%;
+  border-radius:10px;
+}

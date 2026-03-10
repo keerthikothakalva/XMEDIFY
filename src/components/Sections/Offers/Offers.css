@@ -1,0 +1,44 @@
+.offers{
+    padding:60px 0;
+    background:#f7f9fc;
+  }
+  
+  .offers-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    gap:25px;
+  }
+  
+  .offer-card{
+    flex:1;
+    border-radius:12px;
+    overflow:hidden;
+  }
+  
+  .offer-card img{
+    width:100%;
+    display:block;
+  } 
+  .pagination-dots{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:25px;
+  }
+  
+  .pagination-dots span{
+    width:6px;
+    height:6px;
+    background:#cfd8e3;   /* light grey */
+    border-radius:50%;
+  }
+  
+  .pagination-dots .active{
+    width:12px;
+    height:12px;
+    border:2px solid #1a73e8; /* blue outline */
+    background:white;
+    border-radius:50%;
+  }

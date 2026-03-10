@@ -1,0 +1,26 @@
+.blogs-section{
+    padding:80px 20px;
+    background:#f6faff;
+    text-align:center;
+  }
+  
+  .blogs-small{
+    color:#1a73e8;
+    font-weight:600;
+    margin-bottom:10px;
+  }
+  
+  .blogs-heading{
+    font-size:36px;
+    font-weight:700;
+    margin-bottom:50px;
+  }
+  
+  .blogs-container{
+    max-width:1100px;
+    margin:auto;
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+  }

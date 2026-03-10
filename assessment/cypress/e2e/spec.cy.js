@@ -1,7 +1,7 @@
 
 describe('Hospital', () => {
   beforeEach(() => {
-    cy.visit('http://localhost:3000'); // Adjust the URL to match your application
+    cy.visit('https://keerthikothakalva1729-me-fe-xmedify-v2-i16kb0fnq.vercel.app/'); // Adjust the URL to match your application
   });
 
   it('should display state and city dropdowns', () => {
@@ -73,7 +73,7 @@ describe('Hospital', () => {
   
   it('should display all booked slots on the My Bookings page', () => {
     // Navigate to the "My Bookings" page
-    cy.visit('http://localhost:3000/my-bookings'); // Replace with the actual URL for the My Bookings page
+    cy.visit('https://keerthikothakalva1729-me-fe-xmedify-v2-i16kb0fnq.vercel.app/my-bookings'); // Replace with the actual URL for the My Bookings page
     cy.get('h1').contains('My Bookings')
   });
 
@@ -95,7 +95,7 @@ describe('Hospital', () => {
       win.localStorage.setItem('bookings', JSON.stringify(mockBookings));
     });
   
-    cy.visit('http://localhost:3000/my-bookings'); // Replace with actual My Bookings URL
+    cy.visit('https://keerthikothakalva1729-me-fe-xmedify-v2-i16kb0fnq.vercel.app/my-bookings'); // Replace with actual My Bookings URL
   
     cy.get('h3')
       .contains('southeast alabama medical center', { timeout: 5000 })

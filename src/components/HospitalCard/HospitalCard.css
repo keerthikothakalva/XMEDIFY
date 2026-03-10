@@ -1,0 +1,103 @@
+.hospital-card {
+  display: flex;
+  align-items: flex-start;
+  background: white;
+  padding: 25px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+  gap: 20px;
+}
+
+/* hospital icon */
+
+.hospital-icon {
+  width: 70px;
+  height: 70px;
+}
+
+/* info section */
+
+.hospital-info {
+  flex: 2;
+}
+
+.hospital-info h3 {
+  color: #1a73e8;
+  font-size: 20px;
+  margin-bottom: 6px;
+}
+
+.address{
+  font-size:14px;
+  color:#555;
+}
+
+.location{
+  font-size:14px;
+  color:#555;
+  margin-bottom:6px;
+}
+
+.price{
+  font-size:14px;
+}
+
+.price span{
+  color:green;
+  font-weight:bold;
+}
+
+/* rating */
+
+.rating{
+  display:flex;
+  align-items:center;
+  margin-top:10px;
+}
+
+.rating img{
+  width:18px;
+  margin-right:6px;
+}
+
+/* right side */
+
+.hospital-action{
+  flex:1;
+  text-align:right;
+}
+
+/* available text */
+
+.available{
+  color:green;
+  font-weight:bold;
+  margin-bottom:10px;
+}
+
+/* booking button */
+
+.hospital-action button{
+  background:#2a8ef7;
+  color:white;
+  border:none;
+  padding:10px 18px;
+  border-radius:6px;
+  cursor:pointer;
+  font-weight:600;
+}
+
+.hospital-action button:hover{
+  background:#1a73e8;
+}
+
+/* slot section */
+
+.booking-slots{
+  margin-top:20px;
+  background:#f9fbff;
+  border:1px solid #e5eefc;
+  padding:20px;
+  border-radius:10px;
+}

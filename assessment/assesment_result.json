@@ -1,0 +1,8 @@
+{
+    "Test Case 1: Hospital - should display state and city dropdowns": "TEST_STATUS_SUCCESS",
+    "Test Case 2: Hospital - should fetch hospitals when both state and city are selected": "TEST_STATUS_SUCCESS",
+    "Test Case 3: Hospital - should open appointment booking section when a medical center is clicked": "TEST_STATUS_SUCCESS",
+    "Test Case 4: Hospital - should allow user to select date and time and book appointment": "TEST_STATUS_SUCCESS",
+    "Test Case 5: Hospital - should display all booked slots on the My Bookings page": "TEST_STATUS_SUCCESS",
+    "Test Case 6: Hospital - should persist bookings in localStorage after page reload": "TEST_STATUS_SUCCESS"
+}

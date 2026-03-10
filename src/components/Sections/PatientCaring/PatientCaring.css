@@ -1,0 +1,88 @@
+.patient-section{
+  padding:80px 20px;
+  background:#f5f9ff;
+}
+
+.patient-container{
+  max-width:1100px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  gap:60px;
+}
+
+
+
+.patient-image img{
+  width:420px;
+  border-radius:10px;
+}
+
+
+.patient-content{
+  max-width:500px;
+}
+
+.patient-small{
+  color:#1a73e8;
+  font-size:12px;
+  font-weight:600;
+  margin-bottom:10px;
+  letter-spacing:1px;
+}
+
+.patient-content h2{
+  font-size:32px;
+  margin-bottom:15px;
+}
+
+.patient-content h2 span{
+  color:#1a73e8;
+}
+
+.patient-desc{
+  color:#666;
+  margin-bottom:25px;
+  line-height:1.6;
+}
+
+/* LIST WITH TICKS */
+
+.patient-list{
+  list-style:none;
+  padding:0;
+}
+
+.patient-list li{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin-bottom:15px;
+  font-weight:500;
+  color:#333;
+}
+
+.patient-list img{
+  width:18px;
+  height:18px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:900px){
+
+  .patient-container{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .patient-image img{
+    width:100%;
+    max-width:350px;
+  }
+
+  .patient-list li{
+    justify-content:center;
+  }
+
+}
