@@ -31,36 +31,8 @@ XMedify is a healthcare management platform built using React.js that helps user
 * REST API Integration
 
 ### Deployment
-
 * Vercel
-
-## Installation
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/keerthikothakalva/<repository-name>.git
-cd <repository-name>
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Run the Application
-
-```bash
-npm start
-```
-
-The application will run locally at:
-
-```text
-http://localhost:3000
-```
-
+  
 ## Screenshots
 
 ### Home Page
